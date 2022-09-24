@@ -8,6 +8,9 @@ abstract class Routes {
   static const FORM = _Paths.FORM;
   static const LATIHAN = _Paths.LATIHAN;
   static const LATIHAN2 = _Paths.LATIHAN2;
+  static const LISTPAGE = _Paths.LISTPAGE;
+  static const GRIDVIEW = _Paths.GRIDVIEW;
+  static const HELLO_WORLD = _Paths.HELLO_WORLD;
 }
 
 abstract class _Paths {
@@ -15,4 +18,7 @@ abstract class _Paths {
   static const FORM = '/form';
   static const LATIHAN = '/latihan';
   static const LATIHAN2 = '/latihan2';
+  static const LISTPAGE = '/listpage';
+  static const GRIDVIEW = '/gridview';
+  static const HELLO_WORLD = '/hello-world';
 }
