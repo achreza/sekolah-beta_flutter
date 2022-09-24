@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -26,9 +27,14 @@ class HelloWorldView extends GetView<HelloWorldController> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(
-                Icons.flutter_dash,
-                size: 60,
+              SvgPicture.asset(
+                'assets/gdsc.svg',
+                width: 50,
+                height: 50,
+                fit: BoxFit.cover,
+              ),
+              SizedBox(
+                height: 15,
               ),
               Text('Hello,',
                   style: GoogleFonts.montserrat(
