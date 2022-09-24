@@ -26,6 +26,10 @@ class HelloWorldView extends GetView<HelloWorldController> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Icon(
+                Icons.flutter_dash,
+                size: 60,
+              ),
               Text('Hello,',
                   style: GoogleFonts.montserrat(
                       textStyle: TextStyle(
